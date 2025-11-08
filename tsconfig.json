@@ -40,6 +40,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "types": ["node"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
@@ -47,5 +48,5 @@
     "rootDir": "src"
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.mts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "*.mjs", "*.js"]
 }
